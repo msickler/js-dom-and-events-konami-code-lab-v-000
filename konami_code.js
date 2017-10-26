@@ -7,7 +7,7 @@ function init() {
     if (key === code[index]) {
       index++
 
-    if (index === code.length){ 
+    if (index === code.length){
       alert("Done")
       index = 0
     }
@@ -16,5 +16,5 @@ function init() {
     index = 0
   }
   })
-  
+
 }
